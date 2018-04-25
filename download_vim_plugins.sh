@@ -28,3 +28,13 @@ vim -u NONE -c "helptags vim-fugitive/doc" -c q
 # Install lightline
 print_message "Install lightline"
 git clone https://github.com/itchyny/lightline.vim $HOME_DIR/.vim/bundle/lightline.vim
+
+# Install ctrlp.vim
+print_message "Install ctrlp"
+cd $HOME_DIR/.vim/bundle
+git clone https://github.com/ctrlpvim/ctrlp.vim
+
+# Install vim-rtags
+print_message "Install vim-rtags"
+cd $HOME_DIR/.vim/bundle
+git clone https://github.com/lyuts/vim-rtags
