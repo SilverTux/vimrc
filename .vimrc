@@ -9,6 +9,7 @@ filetype plugin indent on
 
 " Solarized settings
 set background=dark
+let g:solarized_termtrans = 1
 colorscheme solarized
 
 " Lightline settings
